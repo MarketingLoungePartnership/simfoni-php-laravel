@@ -43,7 +43,7 @@ If you want to use the facade for authentication, add this to your facades in ap
 To import the default Simfoni configuration file into laravel please run the following command
 
 ```bash
-php artisan vendor:publish --prodivder="MBLSolutions\SimfoniLaravel\SimfoniServiceProvider"
+php artisan vendor:publish --provider="MBLSolutions\SimfoniLaravel\SimfoniServiceProvider"
 ```
 
 A new config file will be available in config/simfoni.php - Please ensure you update these configuration items with details provided by Redu Retail.
