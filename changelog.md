@@ -1,6 +1,7 @@
 ## v3.2.0
 
 + AB#82450 Add support for Laravel 12
++ Fix typos in readme
 
 ## v3.1.0
 
