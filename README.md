@@ -43,7 +43,7 @@ If you want to use the facade for authentication, add this to your facades in ap
 To import the default Simfoni configuration file into laravel please run the following command
 
 ```bash
-php artisan vendor:publish --prodivder="MBLSolutions\SimfoniLaravel\SimfoniServiceProvider"
+php artisan vendor:publish --provider="MBLSolutions\SimfoniLaravel\SimfoniServiceProvider"
 ```
 
 A new config file will be available in config/simfoni.php - Please ensure you update these configuration items with details provided by Redu Retail.
@@ -218,7 +218,7 @@ When utilising `IssuedInfo` the data returned contains encrypted PAN, Serial, Pi
 As this information is confidential, it is returned in an encrypted form. To decrypt the values, a secret key is required. 
 
 To decrypt the values, a secret key is required. This is specifically for the decryption of this information.
-This key will be provided by Redu Retail as part of the configuration.
+This key will be provided by MBL Solutions as part of the configuration.
 
 ```php
 
@@ -294,4 +294,4 @@ Field names use “dotted” notation to designate nested field names. For examp
 Simfoni Interface for PHP is free software distributed under the terms of the MIT license.
 
 A contract/subscription to Simfoni is required to make use of this package, for more information contact
-[Redu Group Technical](mailto:tech@redu.co.uk)
+[MBL Solutions Technical](mailto:tech@mblsolutions.co.uk)
