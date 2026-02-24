@@ -1,3 +1,8 @@
+## v4.0.0
+
++ AB#114583 Bump dependencies for Laravel 12 and phpunit 11.
++ Drop support for Laravel < 10.
+
 ## v3.2.0
 
 + AB#82450 Add support for Laravel 12
