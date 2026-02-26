@@ -75,7 +75,7 @@ class SimfoniServiceProvider extends ServiceProvider
      * @param  callable|null  $function
      * @return JsonResponse|RedirectResponse
      */
-    public static function exceptionHandling($request, Exception $exception, callable $function = null)
+    public static function exceptionHandling($request, Exception $exception, ?callable $function = null)
     {
         if (route_contains('async') || route_contains('api')) {
             if ($exception instanceof ValidationException) {
