@@ -1,3 +1,7 @@
+## v4.0.1
+
++ Use explicitly nullable types to support PHP 8.4.
+
 ## v4.0.0
 
 + AB#114583 Bump dependencies for Laravel 12 and phpunit 11.
